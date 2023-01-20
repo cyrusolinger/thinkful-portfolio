@@ -1,0 +1,22 @@
+/* background, color, font-family, font-size,
+height, margin, padding, text-align */
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  height: 150px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+header,
+footer {
+  background: olive;
+}
+
+h1 {
+  padding-top: 25px;
+  margin: 0;
+}
