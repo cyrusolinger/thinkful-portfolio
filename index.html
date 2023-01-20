@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- normalize cdn link -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -11,6 +12,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- link to external stylesheet -->
     <link rel="stylesheet" href="./style.css" />
     <title>Cyrus Olinger's Portfolio</title>
   </head>
@@ -20,8 +22,9 @@
       <p>Software Engineer</p>
     </header>
     <main>
+      <!-- unsure if article is the best selection for this area as I don't know if it can standalone without context -->
       <article>
-        <img src="images/profile-pic.jpg" alt="" />
+        <img src="images/profile-pic.jpg" alt="picture of Cyrus Olinger" />
         <h2>Welcome to My Online Home!</h2>
         <section class="section-intro">
           <h3>Intro</h3>
@@ -61,6 +64,7 @@
             <li>Playing sports with friends</li>
             <li>Work on side projects/businesses</li>
           </ul>
+          <!-- my random list of NBA goats because we needed an ol :) -->
           <p>NBA Goats</p>
           <ol>
             <li>Lebron James</li>
@@ -86,6 +90,9 @@
         </section>
       </article>
     </main>
-    <footer><p>&copy Cyrus Olinger</p></footer>
+    <footer>
+      <!-- went with paragraph here, possibly there is a more semantically advantageous tag for footer text? -->
+      <p>&copy Cyrus Olinger</p>
+    </footer>
   </body>
 </html>
