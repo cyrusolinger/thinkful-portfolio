@@ -1,22 +1,73 @@
-/* background, color, font-family, font-size,
-height, margin, padding, text-align */
-
+/* a few available fonts along with an off-black color with a nice off white background color */
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(31, 31, 31);
+  background-color: navajowhite;
 }
 
+/* nice size header although not yet responsive */
 header {
   height: 150px;
-  text-align: center;
   font-size: 1.5rem;
 }
 
+/* added a olive background (I know background-color is more specific but background was requested in the instructions) */
 header,
 footer {
   background: olive;
 }
 
+/* centered all headings, plus header and footer */
+h1,
+h2,
+h3,
+header,
+footer {
+  text-align: center;
+}
+
+/* added a bit of room between the top of the page and h1 */
 h1 {
   padding-top: 25px;
   margin: 0;
+}
+
+/* reduced whitespace and centered main content */
+main {
+  width: 50%;
+  margin: auto;
+}
+
+/* made the image round and centered and added a little spacing */
+img {
+  border-radius: 50%;
+  display: block;
+  margin: 1.5rem auto;
+  width: 50%;
+  border: solid black 2px;
+}
+
+/* will spin and slightly enlarge photo over the course of one second */
+img:hover {
+  transform: scale(1.1) rotate(360deg);
+  transition: 1s;
+}
+
+/* removed the underline */
+a {
+  text-decoration: none;
+}
+
+/* fun active effect using pseudo-class */
+a:active {
+  color: green;
+  background-color: brown;
+}
+
+/* footer half the size of the header seemed reasonable */
+footer {
+  height: 75px;
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 1rem;
 }
